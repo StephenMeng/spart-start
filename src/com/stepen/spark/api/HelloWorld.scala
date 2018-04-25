@@ -1,4 +1,4 @@
-package com.stepen.spark
+package com.stepen.spark.api
 
 import org.apache.spark.{SparkConf, SparkContext}
 
