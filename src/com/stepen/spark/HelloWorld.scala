@@ -1,6 +1,8 @@
+package com.stepen.spark
+
 import org.apache.spark.{SparkConf, SparkContext}
 
-object helloworld {
+object HelloWorld {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("mySpark")
     //setMaster("local") 本机的spark就用local，远端的就写ip
